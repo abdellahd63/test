@@ -1,9 +1,8 @@
 const express=require('express');
 const app=express();
 const mongoose= require('mongoose')
-
-
-const dbURI='mongodb+srv://karim00:test1234@karim.9cq8aes.mongodb.net/karimdatabase';
+//    K39tFYMHJe4F6C96
+const dbURI='mongodb+srv://testmongodbk:K39tFYMHJe4F6C96@cluster0.mz1sz0g.mongodb.net/Sonelgaz';
 //const dbURI='mongodb+srv://usernameDBtest:CdSteeJMJpg4qOuW@cluster0.hibcrcx.mongodb.net/Karim'
 
 mongoose.connect(dbURI)
